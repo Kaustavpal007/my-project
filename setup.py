@@ -33,8 +33,6 @@ setup(
             "utility-life=myproject.main:main"
         ]
     },
-    classifiers=[
-        "Operating System :: OS Independent",
-        "Programming Language :: Python :: 3",
-    ],
 )
+
+long_description=open("README.md").read() if exists("README.md") else "",
